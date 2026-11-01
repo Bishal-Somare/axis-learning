@@ -1,0 +1,8 @@
+{
+  "name": "Axis Learning Management Portal",
+  "description": "Comprehensive, mobile-responsive management portal for Axis Learning tuition and coaching centre in Nepal, managing students, batches, attendance, parent notifications, and academic records.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
