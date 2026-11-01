@@ -374,7 +374,7 @@ export const SettingsView: React.FC = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           <div>
-            <label className="block font-medium text-slate-700 mb-1">Kathmandu Address</label>
+            <label className="block font-medium text-slate-700 mb-1">Butwal Shitalnagar Address</label>
             <input
               type="text"
               value={settings.address}

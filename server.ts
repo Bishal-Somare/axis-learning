@@ -212,7 +212,7 @@ const initialSeedData = {
       guardianPhone: '+977-9841334455',
       guardianEmail: 'ram.shrestha.parent@gmail.com',
       guardianRelation: 'Father',
-      address: 'Koteshwor-32, Kathmandu',
+      address: 'Koteshwor-32, Butwal Shitalnagar',
       admissionDate: '2026-01-15',
       status: 'ACTIVE',
       notes: 'Strong in science, needs focus in Optional Math algebra',
@@ -228,7 +228,7 @@ const initialSeedData = {
       guardianPhone: '+977-9851122334',
       guardianEmail: 'binod.karki88@gmail.com',
       guardianRelation: 'Father',
-      address: 'Baneshwor, Kathmandu',
+      address: 'Baneshwor, Butwal Shitalnagar',
       admissionDate: '2026-01-18',
       status: 'ACTIVE',
       notes: 'Consistent attendance',
@@ -244,7 +244,7 @@ const initialSeedData = {
       guardianPhone: '+977-9803124567',
       guardianEmail: 'maya.thapa.parent@yahoo.com',
       guardianRelation: 'Mother',
-      address: 'Chabahil, Kathmandu',
+      address: 'Chabahil, Butwal Shitalnagar',
       admissionDate: '2026-01-20',
       status: 'ACTIVE',
       notes: 'Top scorer in Compulsory Math',
@@ -276,7 +276,7 @@ const initialSeedData = {
       guardianPhone: '+977-9813009988',
       guardianEmail: 'deepak.adhikari.parent@gmail.com',
       guardianRelation: 'Father',
-      address: 'Kalanki, Kathmandu',
+      address: 'Kalanki, Butwal Shitalnagar',
       admissionDate: '2026-02-01',
       status: 'ACTIVE',
       notes: 'Preparing for Engineering entrance exams',
@@ -308,7 +308,7 @@ const initialSeedData = {
       guardianPhone: '+977-9847118822',
       guardianEmail: 'surendra.basnet.parent@gmail.com',
       guardianRelation: 'Father',
-      address: 'Maitidevi, Kathmandu',
+      address: 'Maitidevi, Butwal Shitalnagar',
       admissionDate: '2026-02-10',
       status: 'ACTIVE',
       notes: '',
@@ -324,7 +324,7 @@ const initialSeedData = {
       guardianPhone: '+977-9808332211',
       guardianEmail: 'gopal.rimal.parent@gmail.com',
       guardianRelation: 'Father',
-      address: 'Thamel, Kathmandu',
+      address: 'Thamel, Butwal Shitalnagar',
       admissionDate: '2026-02-15',
       status: 'ACTIVE',
       notes: 'Chartered Accountancy aspirant',
@@ -340,7 +340,7 @@ const initialSeedData = {
       guardianPhone: '+977-9818556677',
       guardianEmail: 'sarita.neupane.parent@gmail.com',
       guardianRelation: 'Mother',
-      address: 'Baluwatar, Kathmandu',
+      address: 'Baluwatar, Butwal Shitalnagar',
       admissionDate: '2026-02-18',
       status: 'ACTIVE',
       notes: '',
@@ -356,7 +356,7 @@ const initialSeedData = {
       guardianPhone: '+977-9843776655',
       guardianEmail: 'dawa.tamang.parent@gmail.com',
       guardianRelation: 'Father',
-      address: 'Boudha, Kathmandu',
+      address: 'Boudha, Butwal Shitalnagar',
       admissionDate: '2026-03-01',
       status: 'ACTIVE',
       notes: '',
@@ -372,7 +372,7 @@ const initialSeedData = {
       guardianPhone: '+977-9851443322',
       guardianEmail: 'rajan.pandey.parent@gmail.com',
       guardianRelation: 'Father',
-      address: 'Samakhusi, Kathmandu',
+      address: 'Samakhusi, Butwal Shitalnagar',
       admissionDate: '2026-03-05',
       status: 'ACTIVE',
       notes: 'Active in science experiments',
@@ -388,7 +388,7 @@ const initialSeedData = {
       guardianPhone: '+977-9801223344',
       guardianEmail: 'ishwar.bhattarai.parent@gmail.com',
       guardianRelation: 'Father',
-      address: 'Dillibazar, Kathmandu',
+      address: 'Dillibazar, Butwal Shitalnagar',
       admissionDate: '2026-03-10',
       status: 'ACTIVE',
       notes: 'BLE exam preparation batch',
@@ -781,17 +781,17 @@ const initialSeedData = {
   settings: {
     centreName: 'Axis Learning Tuition & Coaching Centre',
     tagline: 'Guiding Academic Excellence for Classes 1–10 and +2 (Science & Management)',
-    address: 'Shankhamul Road (Near Bridge), Kathmandu 44600, Nepal',
+    address: 'Shankhamul Road (Near Bridge), Butwal Shitalnagar 44600, Nepal',
     contactPhone: '+977-1-4412345 / +977-9841234567',
     contactEmail: 'contact@axislearning.edu.np',
     academicYear: '2081/2082 BS (2026-2027)',
-    timeZone: 'Asia/Kathmandu',
+    timeZone: 'Asia/Butwal Shitalnagar',
     googleAppsScriptUrl: '',
     googleAppsScriptApiKey: '',
     enableGoogleSheetsSync: false,
-    absenceEmailTemplate: 'Dear {{guardianName}},\n\nThis is an automated notification from Axis Learning Management. Your ward, {{studentName}} (Grade: {{grade}}), was marked ABSENT for the scheduled {{subjectName}} session in batch "{{batchName}}" on {{date}}.\n\nRegular class attendance is vital for conceptual mastery and examination success. If this absence was planned or due to illness, please send a note or contact us at +977-1-4412345.\n\nWarm regards,\nAxis Learning Academic Administration\nKathmandu, Nepal',
+    absenceEmailTemplate: 'Dear {{guardianName}},\n\nThis is an automated notification from Axis Learning Management. Your ward, {{studentName}} (Grade: {{grade}}), was marked ABSENT for the scheduled {{subjectName}} session in batch "{{batchName}}" on {{date}}.\n\nRegular class attendance is vital for conceptual mastery and examination success. If this absence was planned or due to illness, please send a note or contact us at +977-1-4412345.\n\nWarm regards,\nAxis Learning Academic Administration\nButwal Shitalnagar, Nepal',
     teacherReminderTemplate: 'Dear {{teacherName}},\n\nThis is your monthly academic workflow reminder from Axis Learning. As of {{currentDate}}, you have {{incompleteCount}} unsubmitted attendance session(s) for the month of {{month}}.\n\nPlease sign in to the Axis Learning Management Portal and complete your attendance submissions by the month-end deadline.\n\nPortal: https://axislearning.edu.np/portal\nThank you for your dedication to our students.',
-    feeReceiptFooter: 'Thank you for your payment. Axis Learning Tuition & Coaching Centre, Kathmandu, Nepal. Ph: +977-1-4412345. PAN: 601294857.'
+    feeReceiptFooter: 'Thank you for your payment. Axis Learning Tuition & Coaching Centre, Butwal Shitalnagar, Nepal. Ph: +977-1-4412345. PAN: 601294857.'
   }
 };
 
@@ -1047,7 +1047,7 @@ app.post('/api/students', authMiddleware, (req: AuthRequest, res: Response) => {
     guardianPhone: guardianPhone.trim(),
     guardianEmail: (guardianEmail || '').trim(),
     guardianRelation: guardianRelation || 'Guardian',
-    address: (address || 'Kathmandu, Nepal').trim(),
+    address: (address || 'Butwal Shitalnagar, Nepal').trim(),
     admissionDate: new Date().toISOString().split('T')[0],
     status: 'ACTIVE' as const,
     notes: notes || '',
@@ -1134,7 +1134,7 @@ app.post('/api/students/bulk-import', authMiddleware, requireSuperAdmin, (req: A
         guardianPhone: item.guardianPhone || '+977-9840000000',
         guardianEmail: item.guardianEmail || '',
         guardianRelation: item.guardianRelation || 'Father',
-        address: item.address || 'Kathmandu',
+        address: item.address || 'Butwal Shitalnagar',
         admissionDate: item.admissionDate || new Date().toISOString().split('T')[0],
         status: 'ACTIVE',
         notes: item.notes || 'Imported via CSV',
@@ -1374,7 +1374,7 @@ app.post('/api/attendance/sessions', authMiddleware, (req: AuthRequest, res: Res
     const student = db.students.find(s => s.id === absent.studentId);
     if (student && student.guardianEmail) {
       const notifId = `NOTIF-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
-      const messageContent = `Dear ${student.guardianName},\n\nThis is to notify you that your ward ${student.fullName} (ID: ${student.id}) was recorded ABSENT on ${date} for ${newSession.subjectName} in batch "${newSession.batchName}".\n\nPlease reach out to Axis Learning Administration at +977-1-4412345 if you have any questions.\n\nWarm regards,\nAxis Learning, Kathmandu`;
+      const messageContent = `Dear ${student.guardianName},\n\nThis is to notify you that your ward ${student.fullName} (ID: ${student.id}) was recorded ABSENT on ${date} for ${newSession.subjectName} in batch "${newSession.batchName}".\n\nPlease reach out to Axis Learning Administration at +977-1-4412345 if you have any questions.\n\nWarm regards,\nAxis Learning, Butwal Shitalnagar`;
 
       db.notifications.push({
         id: notifId,
@@ -1614,7 +1614,7 @@ app.post('/api/notifications/dispatch-queued', authMiddleware, (req: AuthRequest
   res.json({ success: true, processedCount: dispatched });
 });
 
-// 8. Month-End Teacher Reminders (Asia/Kathmandu timezone aware)
+// 8. Month-End Teacher Reminders (Asia/Butwal Shitalnagar timezone aware)
 app.get('/api/reminders/logs', authMiddleware, (req: AuthRequest, res: Response) => {
   res.json(db.reminders);
 });
@@ -1995,7 +1995,7 @@ app.get('/api/health', (req: Request, res: Response) => {
     status: 'ONLINE',
     app: 'Axis Learning Management Portal',
     time: new Date().toISOString(),
-    timeZone: 'Asia/Kathmandu',
+    timeZone: 'Asia/Butwal Shitalnagar',
     activeStudents: db.students.filter(s => s.status === 'ACTIVE').length,
     activeTeachers: db.users.filter(u => u.isActive).length
   });

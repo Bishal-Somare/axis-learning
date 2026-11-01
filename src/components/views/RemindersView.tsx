@@ -53,7 +53,7 @@ export const RemindersView: React.FC = () => {
             Month-End Teacher Attendance Reminders
           </h1>
           <p className="text-xs text-slate-500 mt-0.5">
-            Targeted automation for Asia/Kathmandu (UTC+5:45) · Dispatched only to faculty with pending sessions
+            Targeted automation for Asia/Butwal Shitalnagar (UTC+5:45) · Dispatched only to faculty with pending sessions
           </p>
         </div>
 
@@ -87,7 +87,7 @@ export const RemindersView: React.FC = () => {
             <span>Timezone & Schedule Cadence</span>
           </div>
           <div className="text-slate-600 space-y-1 text-[11px] leading-relaxed">
-            <div><strong>Configured Timezone:</strong> Asia/Kathmandu (Nepal Standard Time, UTC+5:45)</div>
+            <div><strong>Configured Timezone:</strong> Asia/Butwal Shitalnagar (Nepal Standard Time, UTC+5:45)</div>
             <div><strong>Mid-Month Run:</strong> 25th of every month at 17:00 NST</div>
             <div><strong>Final Month-End Run:</strong> Final day (28th/30th/31st) at 18:00 NST</div>
             <div><strong>Audit Guarantee:</strong> Complete records are marked <code>SKIPPED_COMPLETE</code> to avoid bothering faculty who have finished all submissions.</div>
@@ -139,7 +139,7 @@ export const RemindersView: React.FC = () => {
                 <th className="py-3 px-4">Trigger Cadence</th>
                 <th className="py-3 px-4">Incomplete Sessions</th>
                 <th className="py-3 px-4">Job Outcome</th>
-                <th className="py-3 px-4">Timestamp (Asia/Kathmandu)</th>
+                <th className="py-3 px-4">Timestamp (Asia/Butwal Shitalnagar)</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100">

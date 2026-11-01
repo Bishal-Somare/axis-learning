@@ -44,9 +44,9 @@ export const PublicWebsiteView: React.FC = () => {
     {
       name: 'Ramesh Adhikari',
       role: 'Founding Director & Head of Mathematics',
-      experience: '16+ Years Experience in Kathmandu',
+      experience: '16+ Years Experience in Butwal Shitalnagar',
       subjects: 'Compulsory Math, Optional Math, Business Math',
-      bio: 'Renowned mathematics mentor in the Kathmandu valley, dedicated to demystifying calculus, trigonometry, and CDC board problem-solving.'
+      bio: 'Renowned mathematics mentor in the Butwal Shitalnagar valley, dedicated to demystifying calculus, trigonometry, and CDC board problem-solving.'
     },
     {
       name: 'Sunita Sharma',
@@ -108,7 +108,7 @@ export const PublicWebsiteView: React.FC = () => {
                 Axis Learning
               </div>
               <div className="text-[11px] text-slate-500 font-medium">
-                Tuition & Coaching Centre · Shankhamul, Kathmandu
+                Tuition & Coaching Centre · Shankhamul, Butwal Shitalnagar
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@ export const PublicWebsiteView: React.FC = () => {
               </h1>
 
               <p className="text-base text-slate-600 max-w-xl leading-relaxed">
-                Founded and operated directly by five subject-matter educators in Kathmandu. 
+                Founded and operated directly by five subject-matter educators in Butwal Shitalnagar. 
                 We combine conceptual clarity, small batch discipline, session-by-session attendance tracking, and regular board model testing.
               </p>
 
@@ -190,7 +190,7 @@ export const PublicWebsiteView: React.FC = () => {
               <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-md aspect-16/9 lg:aspect-4/3 bg-slate-100">
                 <img
                   src="/src/assets/images/axis_learning_hero_1793532287595.jpg"
-                  alt="Axis Learning Tuition Class in Kathmandu Nepal"
+                  alt="Axis Learning Tuition Class in Butwal Shitalnagar Nepal"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -201,7 +201,7 @@ export const PublicWebsiteView: React.FC = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent pointer-events-none" />
                 <div className="absolute bottom-3 left-3 right-3 text-white text-xs bg-slate-900/70 backdrop-blur-xs p-2.5 rounded-lg">
-                  <div className="font-semibold">Axis Learning Kathmandu Campus</div>
+                  <div className="font-semibold">Axis Learning Butwal Shitalnagar Campus</div>
                   <div className="text-[11px] text-slate-200">Shankhamul Road · Modern study halls & science annex</div>
                 </div>
               </div>
@@ -343,7 +343,7 @@ export const PublicWebsiteView: React.FC = () => {
               <div className="pt-2 grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-200">
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4 text-amber-400 shrink-0" />
-                  <span>Shankhamul Road, Kathmandu 44600, Nepal</span>
+                  <span>Shankhamul Road, Butwal Shitalnagar 44600, Nepal</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4 text-amber-400 shrink-0" />
@@ -377,7 +377,7 @@ export const PublicWebsiteView: React.FC = () => {
 
       {/* Footer */}
       <footer className="border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-500">
-        <p>© 2026 Axis Learning Tuition & Coaching Centre. All Rights Reserved. Shankhamul, Kathmandu, Nepal.</p>
+        <p>© 2026 Axis Learning Tuition & Coaching Centre. All Rights Reserved. Shankhamul, Butwal Shitalnagar, Nepal.</p>
       </footer>
     </div>
   );

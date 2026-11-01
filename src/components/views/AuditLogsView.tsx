@@ -99,7 +99,7 @@ export const AuditLogsView: React.FC = () => {
                   <th className="py-3 px-4">Modifier User</th>
                   <th className="py-3 px-4">Entity Type</th>
                   <th className="py-3 px-4">Details</th>
-                  <th className="py-3 px-4">Timestamp (Asia/Kathmandu)</th>
+                  <th className="py-3 px-4">Timestamp (Asia/Butwal Shitalnagar)</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">

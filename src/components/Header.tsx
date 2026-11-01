@@ -41,7 +41,7 @@ export const Header: React.FC<HeaderProps> = ({ onToggleMobileMenu, currentViewT
               Axis Learning
             </div>
             <div className="text-[11px] text-slate-500 font-medium leading-none">
-              Management Portal · Kathmandu
+              Management Portal · Butwal Shitalnagar
             </div>
           </div>
         </a>
@@ -53,7 +53,7 @@ export const Header: React.FC<HeaderProps> = ({ onToggleMobileMenu, currentViewT
         <span className="text-slate-300">/</span>
         <span className="font-semibold text-slate-800">{currentViewTitle}</span>
         <span className="text-slate-300">·</span>
-        <span className="text-xs text-slate-500 font-mono">Asia/Kathmandu (UTC+5:45)</span>
+        <span className="text-xs text-slate-500 font-mono">Asia/Butwal Shitalnagar (UTC+5:45)</span>
       </div>
 
       {/* Zone 3: Single Primary Action & Role Switcher */}

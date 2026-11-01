@@ -4,7 +4,7 @@
 export const AXIS_APPS_SCRIPT_SOURCE = `/**
  * AXIS LEARNING MANAGEMENT PORTAL - GOOGLE APPS SCRIPT BACKEND & EXCEL DATABASE
  * 
- * Free-tier Google Sheets & Excel database backend for Axis Learning (Kathmandu, Nepal)
+ * Free-tier Google Sheets & Excel database backend for Axis Learning (Butwal Shitalnagar, Nepal)
  * 
  * Capabilities:
  * - Live Google Sheets / Excel database engine (reads & writes all portal entities)
@@ -12,7 +12,7 @@ export const AXIS_APPS_SCRIPT_SOURCE = `/**
  * - doGet(e): ?action=getExcelUrl returns direct Microsoft Excel (.xlsx) download link
  * - doPost(e): concurrency control via LockService.getScriptLock(10000) (prevents write collisions)
  * - Automated absence notification emails to guardians via MailApp.sendEmail (100 free/day on @gmail.com)
- * - Automated Month-End Teacher Reminder triggers (Asia/Kathmandu timezone)
+ * - Automated Month-End Teacher Reminder triggers (Asia/Butwal Shitalnagar timezone)
  * 
  * SETUP INSTRUCTIONS:
  * 1. Open Google Sheets (or upload your existing Excel file to Google Drive and open as Google Sheets).
@@ -33,7 +33,7 @@ var CONFIG = {
   CENTRE_NAME: 'Axis Learning Tuition & Coaching Centre',
   PHONE: '+977-1-4412345',
   EMAIL: 'contact@axislearning.edu.np',
-  TIMEZONE: 'Asia/Kathmandu'
+  TIMEZONE: 'Asia/Butwal Shitalnagar'
 };
 
 function doGet(e) {
@@ -262,7 +262,7 @@ function handleCreateStudent(s) {
     s.guardianPhone,
     s.guardianEmail || '',
     s.guardianRelation || 'Guardian',
-    s.address || 'Kathmandu',
+    s.address || 'Butwal Shitalnagar',
     s.admissionDate || Utilities.formatDate(new Date(), CONFIG.TIMEZONE, 'yyyy-MM-dd'),
     s.status || 'ACTIVE',
     s.notes || '',
@@ -329,7 +329,7 @@ function handleSendAbsenceNotice(data) {
     'Consistent attendance is essential for academic progress. If this absence was pre-arranged or if you have questions, please reach out to our office.\\n\\n' +
     'Axis Learning Tuition & Coaching Centre\\n' +
     'Contact: ' + CONFIG.PHONE + ' | ' + CONFIG.EMAIL + '\\n' +
-    'Kathmandu, Nepal';
+    'Butwal Shitalnagar, Nepal';
 
   try {
     MailApp.sendEmail({
@@ -368,7 +368,7 @@ function handleSyncStudents(students) {
       s.guardianPhone,
       s.guardianEmail || '',
       s.guardianRelation || 'Guardian',
-      s.address || 'Kathmandu',
+      s.address || 'Butwal Shitalnagar',
       s.admissionDate,
       s.status,
       s.notes || '',

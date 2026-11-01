@@ -38,7 +38,7 @@ export const StudentsView: React.FC = () => {
     guardianPhone: '+977-',
     guardianEmail: '',
     guardianRelation: 'Father',
-    address: 'Kathmandu, Nepal',
+    address: 'Butwal Shitalnagar, Nepal',
     notes: ''
   });
   const [duplicateWarning, setDuplicateWarning] = useState<any[] | null>(null);
@@ -118,7 +118,7 @@ export const StudentsView: React.FC = () => {
         guardianPhone: '+977-',
         guardianEmail: '',
         guardianRelation: 'Father',
-        address: 'Kathmandu, Nepal',
+        address: 'Butwal Shitalnagar, Nepal',
         notes: ''
       });
       setDuplicateWarning(null);
@@ -187,7 +187,7 @@ export const StudentsView: React.FC = () => {
             guardianName: parts[3] || 'Guardian',
             guardianPhone: parts[4] || '+977-9840000000',
             guardianEmail: parts[5] || '',
-            address: parts[6] || 'Kathmandu',
+            address: parts[6] || 'Butwal Shitalnagar',
             admissionDate: parts[7] || new Date().toISOString().split('T')[0]
           });
         }
@@ -594,7 +594,7 @@ export const StudentsView: React.FC = () => {
                   type="text"
                   value={newStudent.address}
                   onChange={(e) => setNewStudent({ ...newStudent, address: e.target.value })}
-                  placeholder="e.g. Shankhamul, Kathmandu"
+                  placeholder="e.g. Shankhamul, Butwal Shitalnagar"
                   className="w-full px-3 py-1.5 rounded-lg border border-slate-200 focus:outline-hidden"
                 />
               </div>

@@ -658,7 +658,7 @@ export const FinanceView: React.FC = () => {
               {/* Receipt Header */}
               <div className="text-center border-b border-slate-200 pb-4">
                 <div className="text-base font-extrabold text-indigo-950">AXIS LEARNING TUITION & COACHING CENTRE</div>
-                <div className="text-[11px] text-slate-500">Shankhamul Road, Kathmandu, Nepal · Ph: +977-1-4412345</div>
+                <div className="text-[11px] text-slate-500">Shankhamul Road, Butwal Shitalnagar, Nepal · Ph: +977-1-4412345</div>
                 <div className="text-[10px] text-slate-400 font-mono mt-0.5">PAN: 601294857 · Established by 5 Founding Faculty</div>
               </div>
 

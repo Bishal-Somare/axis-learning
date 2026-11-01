@@ -241,7 +241,7 @@ export interface PortalSettings {
   contactPhone: string;
   contactEmail: string;
   academicYear: string;
-  timeZone: string; // "Asia/Kathmandu"
+  timeZone: string; // "Asia/Butwal Shitalnagar"
   googleAppsScriptUrl: string;
   googleAppsScriptApiKey: string;
   enableGoogleSheetsSync: boolean;

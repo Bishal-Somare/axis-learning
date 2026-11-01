@@ -121,7 +121,7 @@ export const TeachersView: React.FC = () => {
             Teachers & Faculty Directory
           </h1>
           <p className="text-xs text-slate-500 mt-0.5">
-            5 Founding Teachers in Kathmandu · Individual accounts, role authorization, and monthly session checklist
+            5 Founding Teachers in Butwal Shitalnagar · Individual accounts, role authorization, and monthly session checklist
           </p>
         </div>
 
