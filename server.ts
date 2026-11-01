@@ -50,8 +50,8 @@ const initialSeedData = {
   users: [
     {
       id: 'USR-001',
-      name: 'Ramesh Adhikari',
-      email: 'ramesh.adhikari@axislearning.edu.np',
+      name: 'Bishal Somare',
+      email: 'bishal.somare@axislearning.edu.np',
       role: 'SUPER_ADMIN',
       phone: '+977-9841234567',
       designation: 'Founding Director & Head of Mathematics',
@@ -62,8 +62,8 @@ const initialSeedData = {
     },
     {
       id: 'USR-002',
-      name: 'Sunita Sharma',
-      email: 'sunita.sharma@axislearning.edu.np',
+      name: 'Kasi Thapa',
+      email: 'kasi.thapa@axislearning.edu.np',
       role: 'TEACHER',
       phone: '+977-9851098765',
       designation: 'Founding Faculty - Chemistry & Science',
@@ -74,8 +74,8 @@ const initialSeedData = {
     },
     {
       id: 'USR-003',
-      name: 'Pradeep Thapa',
-      email: 'pradeep.thapa@axislearning.edu.np',
+      name: 'Jay Bhandari',
+      email: 'jay.bhandari@axislearning.edu.np',
       role: 'TEACHER',
       phone: '+977-9812345678',
       designation: 'Founding Faculty - Physics & Computer Science',
@@ -86,8 +86,8 @@ const initialSeedData = {
     },
     {
       id: 'USR-004',
-      name: 'Gita Pokhrel',
-      email: 'gita.pokhrel@axislearning.edu.np',
+      name: 'Nim Sapkota',
+      email: 'nim.sapkota@axislearning.edu.np',
       role: 'TEACHER',
       phone: '+977-9860112233',
       designation: 'Founding Faculty - English & Social Studies',
@@ -98,8 +98,8 @@ const initialSeedData = {
     },
     {
       id: 'USR-005',
-      name: 'Bikash Shrestha',
-      email: 'bikash.shrestha@axislearning.edu.np',
+      name: 'Roshan Ali',
+      email: 'roshan.ali@axislearning.edu.np',
       role: 'TEACHER',
       phone: '+977-9801998877',
       designation: 'Founding Faculty - Accountancy & Economics',
@@ -407,7 +407,7 @@ const initialSeedData = {
       startTime: '06:30',
       endTime: '07:30',
       teacherId: 'USR-001',
-      teacherName: 'Ramesh Adhikari',
+      teacherName: 'Bishal Somare',
       submittedAt: '2026-11-01T07:35:00.000Z',
       status: 'SUBMITTED',
       records: [
@@ -427,7 +427,7 @@ const initialSeedData = {
       startTime: '06:15',
       endTime: '07:30',
       teacherId: 'USR-003',
-      teacherName: 'Pradeep Thapa',
+      teacherName: 'Jay Bhandari',
       submittedAt: '2026-11-01T07:40:00.000Z',
       status: 'SUBMITTED',
       records: [
@@ -446,7 +446,7 @@ const initialSeedData = {
       startTime: '07:30',
       endTime: '08:30',
       teacherId: 'USR-002',
-      teacherName: 'Sunita Sharma',
+      teacherName: 'Kasi Thapa',
       submittedAt: '2026-10-31T08:35:00.000Z',
       status: 'SUBMITTED',
       records: [
@@ -466,7 +466,7 @@ const initialSeedData = {
       previousStatus: 'ABSENT',
       newStatus: 'PRESENT',
       reason: 'Teacher inadvertently marked absent; student arrived during attendance call and submitted homework.',
-      modifiedBy: 'Ramesh Adhikari (Super Admin)',
+      modifiedBy: 'Bishal Somare (Super Admin)',
       timestamp: '2026-10-31T09:00:00.000Z'
     }
   ],
@@ -512,8 +512,8 @@ const initialSeedData = {
     {
       id: 'REM-202610-01',
       teacherId: 'USR-004',
-      teacherName: 'Gita Pokhrel',
-      teacherEmail: 'gita.pokhrel@axislearning.edu.np',
+      teacherName: 'Nim Sapkota',
+      teacherEmail: 'nim.sapkota@axislearning.edu.np',
       month: '2026-10',
       reminderType: 'MID_MONTH',
       status: 'SENT',
@@ -524,8 +524,8 @@ const initialSeedData = {
     {
       id: 'REM-202610-02',
       teacherId: 'USR-005',
-      teacherName: 'Bikash Shrestha',
-      teacherEmail: 'bikash.shrestha@axislearning.edu.np',
+      teacherName: 'Roshan Ali',
+      teacherEmail: 'roshan.ali@axislearning.edu.np',
       month: '2026-10',
       reminderType: 'MONTH_END_FINAL',
       status: 'SKIPPED_COMPLETE',
@@ -617,7 +617,7 @@ const initialSeedData = {
       paymentDate: '2026-10-25',
       paymentMethod: 'eSewa',
       referenceNumber: 'ESEWA-984133-7721',
-      receivedBy: 'Ramesh Adhikari',
+      receivedBy: 'Bishal Somare',
       notes: 'Monthly tuition paid in full'
     },
     {
@@ -630,7 +630,7 @@ const initialSeedData = {
       paymentDate: '2026-10-27',
       paymentMethod: 'Cash',
       referenceNumber: 'CASH-REC-102',
-      receivedBy: 'Ramesh Adhikari',
+      receivedBy: 'Bishal Somare',
       notes: 'Partial payment. Remaining Rs. 2,000 promised by 5th Nov'
     },
     {
@@ -643,7 +643,7 @@ const initialSeedData = {
       paymentDate: '2026-10-26',
       paymentMethod: 'Khalti',
       referenceNumber: 'KHLT-4491-002',
-      receivedBy: 'Ramesh Adhikari',
+      receivedBy: 'Bishal Somare',
       notes: '+2 Science monthly tuition fee'
     }
   ],
@@ -656,7 +656,7 @@ const initialSeedData = {
       expenseDate: '2026-10-01',
       description: 'Building Rent for Academic Premises - Ashwin/Kartik 2081',
       paymentMethod: 'Bank Transfer',
-      enteredBy: 'Ramesh Adhikari',
+      enteredBy: 'Bishal Somare',
       receiptNumber: 'RENT-REC-771'
     },
     {
@@ -666,7 +666,7 @@ const initialSeedData = {
       expenseDate: '2026-10-14',
       description: 'SEE Model Question Sets & +2 Numerical Problem Booklets printing',
       paymentMethod: 'Cash',
-      enteredBy: 'Pradeep Thapa',
+      enteredBy: 'Jay Bhandari',
       receiptNumber: 'PRINT-KTM-44'
     },
     {
@@ -676,7 +676,7 @@ const initialSeedData = {
       expenseDate: '2026-10-20',
       description: 'Nepal Electricity Authority (NEA) monthly bill & water supply',
       paymentMethod: 'eSewa',
-      enteredBy: 'Ramesh Adhikari',
+      enteredBy: 'Bishal Somare',
       receiptNumber: 'NEA-EB-9921'
     }
   ],
@@ -689,7 +689,7 @@ const initialSeedData = {
       subjectId: 'SUB-C10-MATH',
       subjectName: 'Compulsory Mathematics',
       teacherId: 'USR-001',
-      teacherName: 'Ramesh Adhikari',
+      teacherName: 'Bishal Somare',
       title: 'Quadratic Equations & Word Problems Exercise 4.2',
       description: 'Complete all 12 problems from CDC Textbook pages 88-92. Show detailed factorization and discriminant tests.',
       dueDate: '2026-11-04',
@@ -703,7 +703,7 @@ const initialSeedData = {
       subjectId: 'SUB-P2-PHY',
       subjectName: 'Physics (+2)',
       teacherId: 'USR-003',
-      teacherName: 'Pradeep Thapa',
+      teacherName: 'Jay Bhandari',
       title: 'Rotational Dynamics & Moment of Inertia Numericals',
       description: 'Solve the 8 numerical problems given in sheet #4 including parallel and perpendicular axes theorem applications.',
       dueDate: '2026-11-05',
@@ -735,7 +735,7 @@ const initialSeedData = {
       id: 'ANN-001',
       title: 'SEE Model Test Series Phase I Starting Next Week',
       content: 'All Class 10 morning students are requested to collect their admit slips for the SEE Model Examination Series. Tests run every Sunday morning at 06:30 AM sharp.',
-      authorName: 'Ramesh Adhikari',
+      authorName: 'Bishal Somare',
       authorRole: 'SUPER_ADMIN',
       targetAudience: 'ALL',
       publishedAt: '2026-10-28T09:00:00.000Z',
@@ -745,7 +745,7 @@ const initialSeedData = {
       id: 'ANN-002',
       title: 'Faculty Meeting: Monthly Attendance Review & +2 Lab Sessions',
       content: 'Founding teachers meeting scheduled for Friday 5:00 PM in the Teacher Staff Room to finalize monthly attendance reports and curriculum pacing.',
-      authorName: 'Ramesh Adhikari',
+      authorName: 'Bishal Somare',
       authorRole: 'SUPER_ADMIN',
       targetAudience: 'TEACHERS',
       publishedAt: '2026-10-30T14:00:00.000Z',
@@ -757,7 +757,7 @@ const initialSeedData = {
     {
       id: 'AUD-001',
       userId: 'USR-001',
-      userName: 'Ramesh Adhikari',
+      userName: 'Bishal Somare',
       userRole: 'SUPER_ADMIN',
       action: 'SYSTEM_INITIALIZED',
       entityType: 'SETTING',
@@ -768,7 +768,7 @@ const initialSeedData = {
     {
       id: 'AUD-002',
       userId: 'USR-001',
-      userName: 'Ramesh Adhikari',
+      userName: 'Bishal Somare',
       userRole: 'SUPER_ADMIN',
       action: 'ATTENDANCE_CORRECTED',
       entityType: 'ATTENDANCE',
